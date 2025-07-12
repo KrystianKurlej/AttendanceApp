@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "FullName": "John Deo"
+  },
+  {
+    "FullName": "Jan Kowalski"
+  },
+  {
+    "FullName": "Anna Nowak"
+  }
+]
