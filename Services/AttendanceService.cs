@@ -2,6 +2,12 @@ namespace AttendanceApp.Services;
 
 public class AttendanceService
 {
+    private readonly string[] _polishMonthNames = 
+    {
+        "styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec",
+        "lipiec", "sierpień", "wrzesień", "październik", "listopad", "grudzień"
+    };
+
     public List<DateTime> GetWorkdays(int year, int month)
     {
         var dates = new List<DateTime>();
@@ -15,5 +21,13 @@ public class AttendanceService
         }
 
         return dates;
+    }
+
+    public string GetPolishMonthName(int month)
+    {
+        if (month < 1 || month > 12)
+            throw new ArgumentOutOfRangeException(nameof(month), "Miesiąc musi być w zakresie 1-12");
+
+        return _polishMonthNames[month - 1];
     }
 }
