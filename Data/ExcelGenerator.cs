@@ -13,7 +13,8 @@ public class ExcelGenerator
         // Nagłówki dat
         for (int i = 0; i < dates.Count; i++)
         {
-            ws.Cell(1, i + 2).Value = dates[i].ToString("dd.MM");
+            ws.Cell(1, i + 2).Value = dates[i].Day.ToString();
+            ws.Column(i + 2).Width = 3; // Ustawienie szerokości kolumny
         }
 
         // Wiersze z uczestnikami
@@ -38,6 +39,13 @@ public class ExcelGenerator
 
         ws.Cell(1, 1).Value = "Imię i nazwisko";
         ws.Cell(1, dates.Count + 2).Value = "Suma";
+        
+        // Dopasowanie szerokości pierwszej kolumny (imiona i nazwiska)
+        ws.Column(1).AdjustToContents();
+        
+        // Dopasowanie szerokości ostatniej kolumny (suma)
+        ws.Column(dates.Count + 2).AdjustToContents();
+        
         workbook.SaveAs(outputPath);
     }
 }
