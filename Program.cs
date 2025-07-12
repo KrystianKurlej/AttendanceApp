@@ -34,10 +34,30 @@ while (true)
             break;
 
         case "3":
-            Console.Write("Podaj nazwę do usunięcia: ");
-            var nameToRemove = Console.ReadLine();
-            participants.RemoveAll(p => p.FullName == nameToRemove);
-            repo.SaveParticipants(participants);
+            if (participants.Count == 0)
+            {
+                Console.WriteLine("Brak uczestników do usunięcia.");
+                break;
+            }
+
+            Console.WriteLine("Lista uczestników:");
+            for (int i = 0; i < participants.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {participants[i].FullName}");
+            }
+                
+            Console.Write("Podaj numer uczestnika do usunięcia: ");
+            if (int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= participants.Count)
+            {
+                string removedName = participants[index - 1].FullName;
+                participants.RemoveAt(index - 1);
+                repo.SaveParticipants(participants);
+                Console.WriteLine($"Usunięto uczestnika: {removedName}");
+            }
+            else
+            {
+                Console.WriteLine("Nieprawidłowy numer!");
+            }
             break;
 
         case "4":
