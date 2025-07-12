@@ -69,7 +69,7 @@ while (true)
             var dates = attendanceService.GetWorkdays(year, month);
             var monthName = attendanceService.GetPolishMonthName(month);
             var filename = $"Lista obecności {monthName} {year}.xlsx";
-            excelGenerator.GenerateAttendanceSheet(participants, dates, filename);
+            excelGenerator.GenerateAttendanceSheet(participants, dates, filename, monthName, year);
 
             Console.WriteLine($"Zapisano arkusz: {filename}");
             break;
