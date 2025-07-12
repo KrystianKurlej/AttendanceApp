@@ -1,0 +1,7 @@
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/..GeneratedMSBuildEditorConfig.editorconfig
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/..AssemblyInfoInputs.cache
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/..AssemblyInfo.cs
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/..csproj.CoreCompileInputs.cache
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/..dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/refint/..dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/..pdb

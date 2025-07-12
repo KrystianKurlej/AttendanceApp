@@ -1,0 +1,14 @@
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/AttendanceApp
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/AttendanceApp.deps.json
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/AttendanceApp.runtimeconfig.json
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/AttendanceApp.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/AttendanceApp.pdb
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.AssemblyInfoInputs.cache
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.AssemblyInfo.cs
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.csproj.CoreCompileInputs.cache
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/refint/AttendanceApp.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.pdb
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.genruntimeconfig.cache
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/ref/AttendanceApp.dll
