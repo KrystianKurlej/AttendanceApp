@@ -12,3 +12,14 @@
 /Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.pdb
 /Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.genruntimeconfig.cache
 /Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/ref/AttendanceApp.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.sourcelink.json
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/AttendanceApp.csproj.AssemblyReference.cache
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/ClosedXML.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/ClosedXML.Parser.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/DocumentFormat.OpenXml.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/DocumentFormat.OpenXml.Framework.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/ExcelNumberFormat.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/RBush.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/SixLabors.Fonts.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/bin/Debug/net9.0/System.IO.Packaging.dll
+/Users/krystiankurlej/Documents/Freelance/AttendanceApp/obj/Debug/net9.0/Attendan.AE10E602.Up2Date
